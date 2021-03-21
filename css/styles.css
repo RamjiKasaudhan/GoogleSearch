@@ -1,0 +1,131 @@
+body{
+    font-family: Arial,sans-serif;
+    padding: 0 16px;  
+}
+.head{
+    display: inline;
+    padding-left: 15px;
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
+    margin-right: 10px;
+}
+nav{
+    padding-top: 5px;
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#input{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+}
+#input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    cursor: pointer;
+}
+.profile{
+    cursor: pointer;
+    border-radius: 24px;
+    height: 28px;
+    width: 20px;
+    margin-right: 0;
+    margin-left: 16px;
+    position: relative;
+    top: 4px;
+}
+section{
+     text-align: center;
+     padding-top: 12%;  
+}
+#dropdown{
+    position: relative;
+    top: 4px;
+    margin-right:8px;
+    margin-left: 16px;
+}
+#dropdown:hover{
+    cursor: pointer;
+}
+.voice{
+    position: absolute;
+    right: 350px;
+    position: relative;
+    top: 10px;
+    left: -40px;  
+    width: 28px;
+}
+.but{
+    margin-top: 24px;
+    margin-right: 16px;
+    outline: none;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #222;
+}
+.but:hover{
+    background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+#apps{
+    width: 285px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    position: absolute;
+    right: 108px;
+    margin-top: 12px ;
+    display: none;
+}
+#wrapper{
+    display: inline-block;
+}
+#wrapper:hover #apps{
+    display: block;
+}
+
+.icons{
+    text-align:center;
+    display: inline-block;
+    width: 84px;
+    padding: 4px 2px;
+}
+
+.icons > img{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0px;
+}
+.icons > p{
+    color: rgba(0,0,0,0.87);
+ 
+}
+.icons:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+/* .container {
+    
+    width: auto;
+    height: 150px;
+} */
